@@ -6,7 +6,7 @@ Create `client.ovpn` file with connection configuration with embedded certs in i
 
 ```
 docker buildx build --no-cache --platform linux/arm/v6 -t ovpn .
-docker save mdns -o ovpn.tar
+docker save ovpn -o ovpn.tar
 ```
 
 Expected size of output container is ~12.3M. Platform may differ based on your router's cpu.
