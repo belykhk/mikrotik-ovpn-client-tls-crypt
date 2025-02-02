@@ -1,5 +1,9 @@
 # OpenVPN client for Mikrotik router with tls-crypt support
 
+## Deprecation
+
+Since the release of RouterOS 7.17 you can now use native OpenVPN client with tls-crypt (via importing .ovpn file). It is faster that using container. This repo is now set as archived just for the sake of information if anyone need it.
+
 ## Build
 
 Create `client.ovpn` file with connection configuration with embedded certs in it.
